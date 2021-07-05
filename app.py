@@ -22,6 +22,10 @@ def Home():
     return render_template('index.html')
 
 
+# creating object for StandardScaler
+standard_to = StandardScaler()
+
+
 if __name__ == "__main__":
     # run method starts our web service
     # Debug : as soon as I save anything in my structure, server should start again
